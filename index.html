@@ -1,0 +1,75 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="chrome=1">
+	<title>Git Cheat Sheet</title>
+
+	<link rel="stylesheet" href="stylesheets/styles.css">
+	<link rel="stylesheet" href="stylesheets/pygment_trac.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+	<!--[if lt IE 9]>
+	<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+</head>
+<body>
+	<div class="wrapper">
+
+		<header>
+			<h1>Git Cheat Sheet</h1>
+			<p>Comman GIT commands for my personal use.</p>
+
+			<ul>
+				<li><a href="#">Link 1</a></li>
+				<li><a href="#">Link 2</a></li>
+				<li><a href="#">Link 3</a></li>
+				<li><a href="#">Link 4</a></li>
+				<li><a href="#">Link 5</a></li>
+				<li><a href="#">Link 6</a></li>
+			</ul>
+		</header>
+
+		<section>
+
+			<h2>Create a Repo</h2>
+			<p>
+				Create a repo in Github, Pagoda, or Springloops. Navigate to your sites folder then:
+			</p>
+			<pre><code>$ git clone git@github.com:Abban/git-cheat.git</code></pre>
+
+			<p>
+				To create a custom folder name:
+			</p>
+			<pre><code>$ mkdir 'foldername'
+$ git clone git@github.com:Abban/git-cheat.git foldername</code></pre>
+
+			<p>
+				To clone into the current folder you use:
+			</p>
+			<pre><code>$ git clone git@github.com:Abban/git-cheat.git .</code></pre>
+
+			<h2>Check Status &amp; Add &amp; Commit Files</h2>
+
+			<p>To check what’s changed since last commit</p>
+			<pre><code>$ git status</code></pre>
+
+			<p>Different ways to add files:</p>
+			<pre><code>$ git add .
+$ git add filename.html
+$ git add --all</code></pre>
+
+			<p>Commit files:</p>
+			<pre><code>$ git commit -m "Commit message"</code></pre>
+			<p>This will add the files to your LOCAL repository.</p>
+
+		</section>
+
+		<footer>
+			<p>This project is maintained by <a href="http://github.com/Abban">Abban Dunne</a></p>
+			<p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+		</footer>
+
+	</div>
+	<script src="javascripts/scale.fix.js"></script>
+</body>
+</html>
